@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai6+7</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">       
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <div class="modal-container">
+
+        <button class="btn btn-start">Đăng nhập hệ thống</button>
+
+        <!-- đăng nhập -->
+        <form action="" method="POST" class="form form-login">
+            <h3 class="heading">Member login</h3>
+            
+            <div class="form-group">
+                <i class="fa-solid fa-user icon"></i>
+                <label for="name" class="form-label">Username:</label>
+                <input id="fullName" name="name" type="text" placeholder="VD: Ngoc ha" class="form-control">
+                <span class="form-message form-message1"></span>
+            </div>
+    
+            <div class="form-group">
+              <i class="fa-solid fa-lock icon"></i>
+              <label for="password" class="form-label">Password:</label>
+              <input id="password" name="password" type="password" placeholder="Nhập mật khẩu..." class="form-control">
+              <span class="form-message form-message2"></span>
+            </div>
+    
+            <button class="btn btn-login">Login</button>
+            <br>
+            <span class="form-message form-message3"></span>
+            <br>
+            <p class="change">
+
+                <a href="#" class="link-change">Password change ?</a>
+            </p>
+          </form>
+
+          <!-- đổi mật khẩu -->
+         
+          <form action="" method="POST" class="form form-change">
+              <h3 class="heading">Password change</h3>
+              
+              <div class="form-group">
+                <label for="password" class="form-label">OldPassword:</label>
+                <input id="oldPassword" name="oldPassword" type="password" placeholder="Nhập mật khẩu..." class="form-control">
+                <span class="form-message form-message4"></span>
+              </div>
+      
+              <div class="form-group">
+                <label for="password" class="form-label">NewPassword:</label>
+                <input id="newPassword" name="NewPassword" type="password" placeholder="Nhập mật khẩu..." class="form-control">
+                <span class="form-message form-message5"></span>
+              </div>
+      
+              <button class="btn btn-save">Save</button>
+              
+            </form>
+
+    </div>
+    <script src="./login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {    
+    color: #333;
+    font-size: 62.5%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    background: url("/L0_HTML/image/bai4.jpg") no-repeat left top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 940px;
+    height: 190px;
+    box-shadow: 0 5px 10px #aaa;
+}
+.list-items{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    color: #fff;
+    margin: 35px 50px;
+}
+.label {
+    font-size: 1.4rem;
+    color: #aaa;
+}
+.icon{
+    margin-bottom: 14px;
+}
+.icon-item{
+    font-size: 4rem;
+}
+.number {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}

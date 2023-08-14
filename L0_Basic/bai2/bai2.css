@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+.item_li{
+    list-style: none;
+}
+.item_li:nth-child(even) {
+    background-color: green;
+    width: 20px;
+}
+
+.item_li:nth-child(odd) {
+    background-color: red;
+    width: 20px;
+}
+
+.list1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+}
+
+.item_span:nth-child(even) {
+    background-color: green;
+    width: 20px;
+}
+
+.item_span:nth-child(odd) {
+    background-color: red;
+    width: 20px;
+}
+
+.list2 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+}
+
+@media only screen and (min-width: 320px) {
+    .item_li:nth-child(odd) {
+        background-color: red;
+        width: 20px;
+    }
+
+    .item_li:nth-child(even) {
+        background-color: green;
+        width: 30px;
+    }
+
+    .item_span:nth-child(odd) {
+        background-color: red;
+        width: 20px;
+    }
+
+    .item_span:nth-child(even) {
+        background-color: green;
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .item_li:nth-child(odd) {
+        background-color: yellow;
+        width: 20px;
+    }
+
+    .item_li:nth-child(even) {
+        background-color: red;
+        width: 50px;
+    }
+
+    .item_span:nth-child(odd) {
+        background-color: yellow;
+        width: 20px;
+    }
+
+    .item_span:nth-child(even) {
+        background-color: red;
+        width: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .item_li:nth-child(odd) {
+        background-color: goldenrod;
+        width: 30px;
+    }
+
+    .item_li:nth-child(even) {
+        background-color: yellow;
+        width: 40px;
+    }
+
+    .item_span:nth-child(odd) {
+        background-color: goldenrod;
+        width: 30px;
+    }
+
+    .item_span:nth-child(even) {
+        background-color: yellow;
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .item_li:nth-child(odd) {
+        background-color: yellow;
+        width: 30px;
+    }
+
+    .item_li:nth-child(even) {
+        background-color: purple;
+        width: 40px;
+    }
+
+    .item_span:nth-child(odd) {
+        background-color: yellow;
+        width: 30px;
+    }
+
+    .item_span:nth-child(even) {
+        background-color: purple;
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .item_li:nth-child(odd) {
+        background-color: purple;
+        width: 50px;
+    }
+
+    .item_li:nth-child(even) {
+        background-color: pink;
+        width: 100px;
+    }
+
+    .item_span:nth-child(odd) {
+        background-color: purple;
+        width: 50px;
+    }
+
+    .item_span:nth-child(even) {
+        background-color: pink;
+        width: 100px;
+    }
+}
