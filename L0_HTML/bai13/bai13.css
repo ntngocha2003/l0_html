@@ -65,3 +65,12 @@ html {
     color: #757575;
     font-weight: bold;
 }
+@media (max-width: 739px){
+    .main-container {
+        min-height: 400px;
+        box-shadow: none
+    }
+    .client-item {
+        display: block;
+    }
+}

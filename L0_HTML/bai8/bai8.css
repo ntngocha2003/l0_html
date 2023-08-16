@@ -66,3 +66,11 @@ html {
 .time{
     margin-bottom: 10px;
 }
+@media (max-width: 739px){
+    .container {
+        align-items: unset;
+    }
+    .main-container {
+        min-height: 650px;
+    }
+}

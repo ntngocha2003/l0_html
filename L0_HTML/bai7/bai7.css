@@ -72,3 +72,8 @@ html {
     margin-bottom: 50px;
     border: 1px solid #eee;
 }
+@media (max-width: 739px){
+    .line{
+        margin-top: 0px;
+    }
+}

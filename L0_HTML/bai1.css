@@ -64,3 +64,9 @@ html {
 .btn:hover {
     opacity: 0.9;
 }
+
+@media (max-width: 739px) {
+    .main-container {
+        height: 360px;
+    }
+}

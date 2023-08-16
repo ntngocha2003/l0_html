@@ -77,3 +77,23 @@ html {
     font-size: 1.4rem;
     color: #ccc;
 }
+@media (max-width: 739px){
+    .block:nth-child(1) {
+        display: block;
+    }
+    .fullname {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .email {
+        width: 100%;
+    }
+    .message {
+        width: 100%;
+        width: 100%;
+        padding: 10px 10px 120px 10px;
+    }
+    .note {
+        margin-left: 25px;
+    }
+}

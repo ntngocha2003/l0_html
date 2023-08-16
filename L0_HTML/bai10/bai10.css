@@ -55,3 +55,20 @@ html {
 .line{
     border: 1px dashed #f3a29d;
 }
+@media (max-width: 739px){
+    .container {
+        min-height: 750px;
+    }
+
+    .main-container {
+      
+        height: 700px;
+    }
+    .content {
+        margin: 28px;
+    }
+    .item {
+        display: flex;
+        margin: 10px 0;
+    }
+}
