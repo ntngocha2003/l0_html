@@ -71,6 +71,7 @@ html {
         align-items: unset;
     }
     .main-container {
+        
         min-height: 650px;
     }
 }

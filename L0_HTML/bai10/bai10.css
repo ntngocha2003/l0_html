@@ -57,12 +57,12 @@ html {
 }
 @media (max-width: 739px){
     .container {
-        min-height: 750px;
+        min-height: 800px;
     }
 
     .main-container {
       
-        height: 700px;
+        min-height: 800px;
     }
     .content {
         margin: 28px;

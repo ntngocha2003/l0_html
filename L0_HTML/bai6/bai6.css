@@ -54,11 +54,13 @@ html {
     color: #5b5b5b;
     font-size: 14px;
 }
+
 @media (max-width: 739px){
     .container {
         align-items: unset;
     }
     .main-container {
+        display: flex;
         min-height: 410px;
         box-shadow: none;
     }
