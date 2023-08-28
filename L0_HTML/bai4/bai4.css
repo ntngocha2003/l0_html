@@ -16,7 +16,7 @@ html {
     justify-content: center;
 }
 .main-container {
-    background: url("/L0_HTML/image/bai4.jpg") no-repeat left top;
+    background: url("../image/bai4.jpg") no-repeat left top;
     background-size: cover;
     display: flex;
     flex-direction: column;

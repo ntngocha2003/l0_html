@@ -10,27 +10,26 @@ html {
 }
 .container {
     width: 100vw;
-    height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .main-container {
     width: 950px;
-    height: 410px;
-    box-shadow: 0 5px 10px #aaa;
+    
 }
 .list-items{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 .item{
     background-color: #f8f8f8;
-    float: left;
     margin: 15px;
-    padding: 24px 15px;
+    padding: 24px 20px;
     text-align: center;
-    width: 300px;
+    width: calc(100%/4);
 }
 .icon-item {
     border: 2px solid #399;
@@ -55,17 +54,14 @@ html {
     font-size: 14px;
 }
 
-@media (max-width: 739px){
-    .container {
-        align-items: unset;
+
+@media (max-width: 800px){
+    .item {
+        width: 40%;
     }
-    .main-container {
-        display: flex;
-        min-height: 410px;
-        box-shadow: none;
-    }
-    .list-items {
-        flex-wrap: wrap;
-        justify-content: center;
+}
+@media (max-width: 480px){
+    .item {
+        width:100%;
     }
 }

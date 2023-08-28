@@ -17,7 +17,7 @@ html {
 }
 .main-container {
     width: 580px;
-    height: 500px;
+    
     box-shadow: 0 5px 10px #aaa;
 }
 .section {
@@ -72,8 +72,35 @@ html {
     margin-bottom: 50px;
     border: 1px solid #eee;
 }
-@media (max-width: 739px){
+@media (max-width: 480px){
+    .section {
+        font-size: 50%;
+    }
+    .text-heading{
+        font-size: 2rem;
+    }
     .line{
-        margin-top: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .img-image{
+        width: 180px;
+        height: 100px;
     }
 }
+@media (max-width: 320px){
+    .section {
+        font-size: 50%;
+    }
+    .text-heading{
+        font-size: 2rem;}
+    .line{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .img-image{
+        width: 150px;
+        height: 100px;
+    }
+}
+

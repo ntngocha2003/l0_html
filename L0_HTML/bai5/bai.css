@@ -50,19 +50,68 @@ html {
     color: #c2d82e;
     margin-right: 10px;
 }
-@media (max-width: 739px){
+@media (max-width: 768px){
    
+    .block {
+        text-align: unset;
+        
+    }
     .content {
-        margin: 30px 20px;
+        margin: 30px 40px;
+    }
+    
+}
+@media (max-width: 600px){
+   
+    .list-items {
+        font-size: 1rem;
     }
     .block {
         text-align: unset;
+        
     }
-    .list-items {
-        font-size: 1rem;
+    .content {
+        margin: 30px 40px;
+    }
+    .text-heading {
+        font-size: 2rem;
+}
+    .text-description {
+            font-size: 1.2rem;
     }
     .icon-item {
         margin-right: 5px;
     }
 
+}
+@media (max-width: 480px){
+    .content {
+        margin: 30px 5px;
+    } 
+
+    .text-heading {
+            font-size: 2rem;
+    }
+    .text-description {
+            font-size: 1.2rem;
+    }
+    .list-items {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px){
+    .content {
+        margin: 20px 4px;
+    } 
+
+    .text-heading {
+            font-size: 1.4rem;
+    }
+    .text-description {
+            font-size: 1rem;
+    }
+    .list-items {
+        font-size: 0.8rem;
+    }
 }

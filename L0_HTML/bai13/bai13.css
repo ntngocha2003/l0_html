@@ -10,14 +10,14 @@ html {
 }
 .container {
     width: 100vw;
-    height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .main-container {
     width: 890px;
-    height: 400px;
+    
     box-shadow: 0 5px 10px #aaa;
 }
 .client{
@@ -37,14 +37,13 @@ html {
 .client-list{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 .client-item{
     text-align: left;
     display: flex;
     margin: 26px 0;
-}
-.client-item:nth-child(2){
-    margin: 26px 28px;
+    width: calc(100%/3);
 }
 .avatar{
     margin-right: 20px;
@@ -66,11 +65,12 @@ html {
     font-weight: bold;
 }
 @media (max-width: 739px){
-    .main-container {
-        min-height: 400px;
-        box-shadow: none
-    }
     .client-item {
-        display: block;
+        width: 50%;
+    }
+}
+@media (max-width: 480px){
+    .client-item {
+        width:100%;
     }
 }

@@ -16,7 +16,7 @@ html {
     justify-content: center;
 }
 .main-container {
-    background: url("/L0_HTML/image/bai2.jpg") no-repeat center center;
+    background: url("../image/bai2.jpg") no-repeat center center;
     background-size: cover;
     color: #fff;
     width: 940px;

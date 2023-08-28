@@ -17,7 +17,6 @@ html {
 }
 .main-container {
     width: 890px;
-    height: 400px;
     box-shadow: 0 5px 10px #aaa;
 }
 .contact-us{
@@ -85,12 +84,8 @@ html {
 .btn-submit:hover {
     background-color: #18ccca;
 }
-@media (max-width: 739px){
-    .main-container {
-        width: 890px;
-        min-height: 400px;
-        box-shadow: none;
-    }
+@media (max-width: 1024px){
+    
     .contact-content {
         display: flex;
         flex-direction: column;
@@ -101,5 +96,8 @@ html {
     }
     .contact-form {
         width: 100%;
+    }
+    .contact-us{
+        margin: 10px 30px;
     }
 }
